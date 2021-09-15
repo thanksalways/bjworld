@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>충남외국인투자기업센터</title>  
+	<title>충남외국인투자기업센터</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,51 +22,51 @@
 	<script src="http://www.hifi.or.kr/ckeditor/ckeditor.js"></script>
 	<script src="http://www.hifi.or.kr/js/jquery-2.2.4.min.js"></script>
 	<script src="http://www.hifi.or.kr/js/user.js"></script>
-	<script src="http://www.hifi.or.kr/js/bootstrap.js"></script>	
+	<script src="http://www.hifi.or.kr/js/bootstrap.js"></script>
 	<script src="http://www.hifi.or.kr/js/slick.js"></script>
 	<script src="http://www.hifi.or.kr/js/slick.min.js"></script>
-	
+
 
 	<style>
 		.slide-action {z-index:10; position: absolute; width:0%; height: 100%; bottom:0;}
-		.slide-action.on {width:800px; max-width: 55%;}  
-		
+		.slide-action.on {width:800px; max-width: 55%;}
+
 		.slide-active-font {z-index:10; position: absolute; top:-300px; -webkit-transition: 1s; transition: 1s; left:0; padding: 0 15px;}
-		.slide-active-font.on {top:5.1rem;}  
+		.slide-active-font.on {top:5.1rem;}
 	</style>
 
 	<script>
 		$(document).ready(function(){
 			$(".slide-action").addClass("on");
-			$(".slide-active-font").addClass("on");  
-			
+			$(".slide-active-font").addClass("on");
+
 			$('.fbanner').slick({
-				  slidesToShow: 5, 
+				  slidesToShow: 5,
 				  slidesToScroll: 1,
 				  autoplay: true,
 				  autoplaySpeed: 2000,
 				  responsive: [ // 반응형 웹 구현 옵션
-						{  
+						{
 							breakpoint: 960, //화면 사이즈 960px
 							settings: {
-								slidesToShow:4 
-							} 
+								slidesToShow:4
+							}
 						},
-						{ 
+						{
 							breakpoint: 768, //화면 사이즈 768px
-							settings: {	
-								slidesToShow:2 
-							} 
+							settings: {
+								slidesToShow:2
+							}
 						}
 					]
 				});
-			
-			var menu = "";  
-			
+
+			var menu = "";
+
 			if(menu) {
 				$(".header-menu li:nth-child("+menu+") a").addClass("on");
 			}
-			
+
 			$(window).scroll(function() {
 				if ($(this).scrollTop() > 50) {
 					$('#Gotop').fadeIn();
@@ -74,7 +74,7 @@
 					$('#Gotop').fadeOut();
 				}
 			});
-			
+
 			$("#Gotop").click(function() {
 				$('html, body').animate({
 					scrollTop : 0
@@ -85,21 +85,27 @@
 
 	</script>
 
-	
 
-</head>
+
+</head\>
+<!--  -->
+<!--  -->
+<!--  -->
 <body>
 	<!-- 상단 메뉴 시작 -->
 	<header>
 		<div>
+			<!-- padding 값 -->
 			<div class="container g-pos-rel">
 				<div class="g-pos-rel">
+					<!-- 로고에 맞는 설정, d-line: inline-block -->
 					<div class="d-line logo">
 						<a href="#">
 							<img src="http://www.hifi.or.kr/images/main/로고.svg"><!-- svg파일 변경 -->
 						</a>
 					</div>
 					<div class="d-line">
+						<!-- padding,margin 0, 위아래 값, position absolute,  -->
 						<ul class="un-style header-menu g-pos-abs clearfix">
 							<li><a>센터소개</a></li>
 							<li><a>커뮤니티</a></li>
@@ -108,21 +114,28 @@
 							<li><a>구인구직</a></li>
 						</ul>
 					</div>
+
+					<!-- ❓이부분이 어떤 역할을 하는거지?? -->
 					<div class="d-line menu g-pos-abs">
 						<a class="allfind"><img src="http://www.hifi.or.kr/images/main/find.png"></a>
 						<a class="allmenuBt mobile"><img src="http://www.hifi.or.kr/images/main/hambuger.png"></a>
 						<a class="allmenuBt web"><img src="http://www.hifi.or.kr/images/main/hambuger.png"></a>
 					</div>
 				</div>
+
 				<div class="select_div">
 					<input type="text" class="allsearch">
 					<button class="btn_cf allsearch">검색</button>
 				</div>
-			</div>		
+			</div>
 		</div>
+		<!-- 폭100퍼,백그라운드 이미지,사이즈100퍼/ absolute -->
 		<div class="sub-menu g-pos-abs">
+			<!-- padding 값 -->
 			<div class="container">
+				<!-- relative -->
 				<div class="g-pos-rel" style="height: 100%;">
+					<!-- absolute / display table-->
 					<div class="g-pos-abs clearfix">
 						<div>
 							<ul class="un-style">
@@ -140,7 +153,7 @@
 						</div>
 						<div>
 							<ul class="un-style">
-								<li><a href="http://www.hifi.or.kr/notice/notice.do">공지사항</a></li>  
+								<li><a href="http://www.hifi.or.kr/notice/notice.do">공지사항</a></li>
 								<li><a href="http://www.hifi.or.kr/notice/board.do?bt=0201">진흥원 지원사업</a></li>
 								<li><a href="http://www.hifi.or.kr/notice/education.do">교육지원</a></li>
 								<li><a href="http://www.hifi.or.kr/notice/consulting.do">경영 컨설팅</a></li>
@@ -164,8 +177,9 @@
 		</div>
 	</header>
 	<!-- 상단 메뉴 끝 -->
-
-	
+<!--  -->
+<!--  -->
+<!--  -->
 	<div id="content" class="g-pos-rel">
 		<!-- 메인 슬라이드 시작 -->
 		<div class="slider desk">
@@ -177,36 +191,37 @@
 						<li data-target="#myCarousel" data-slide-to="2"></li>
 					</ol>
 					<div class="slide-action">
-								 
+
 					</div>
 					<div class="container g-pos-rel">
-						<div class="slide-active-font">  
+						<div class="slide-active-font">
 							<p>외국인 투자기업의 든든한 파트너!</p>
 							<h3>
 								<span>충남 외국인</span><br>
 								<span>투자기업</span> 지원센터
-							</h3>	
-						</div>	        		
+							</h3>
+						</div>
 					</div>
-					
+
 					<div class="carousel-inner main" class="g-pos-rel">
-						<div class="item active one">  
-							
+						<div class="item active one">
+
 						</div>
-						<div class="item two">  
-							
+						<div class="item two">
+
 						</div>
-						<div class="item three">  
-							
+						<div class="item three">
+
 						</div>
 					</div>
-				
-					
+
+
 				</div>
 			</div>
 		</div>
 		<!-- 메인 슬라이드 끝 -->
-		
+<!--  -->
+<!--  -->
 		<!-- 메인 콘텐츠 시작 -->
 		<div class="container">
 			<div class="mainMenu">
@@ -251,15 +266,15 @@
 					</div>
 					<div class="">
 						<p class="g-pos-rel">
-							도내 외국인투자기업의 불편해소 
-							및 투자 환경 개선을 위해 관련 전문가 
-							혹은 유관기관, 지자체에 전달되는 
-							기업활동 애로사항을 접수합니다. 
+							도내 외국인투자기업의 불편해소
+							및 투자 환경 개선을 위해 관련 전문가
+							혹은 유관기관, 지자체에 전달되는
+							기업활동 애로사항을 접수합니다.
 						</p>
 					</div>
 					<div class="tcenter">
 						<a class="first" id="openMailf">온라인 애로 접수</a>
-						<a id="openMails">온라인 규제개선 요청</a> 
+						<a id="openMails">온라인 규제개선 요청</a>
 					</div>
 				</div>
 				<div class="mainBoard d-line col-lg-6">
@@ -269,9 +284,9 @@
 								<li class="d-line active"><a data-toggle="tab" href="#notice" class="active g-pos-rel">공지사항</a></li>
 								<li class="d-line"><a data-toggle="tab" href="#new" class="g-pos-rel">뉴스레터</a></li>
 								<li class="d-line"><a data-toggle="tab" href="#business" class="g-pos-rel">지원사업</a></li>
-								<li class="fright"><a class="padding0"><i class="fas fa-plus"></i></a></li>    
+								<li class="fright"><a class="padding0"><i class="fas fa-plus"></i></a></li>
 							</ul>
-						</div>  
+						</div>
 						<div class="tab-content">
 							<div id="notice" class="tab-pane fade in active">
 								<ul class="un-style">
@@ -284,23 +299,15 @@
 							</div>
 							<div id="new" class="tab-pane fade">
 								<ul class="un-style">
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 8월호</a></div><div class="fright">2021-08-26</div></li>
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 7월호 </a></div><div class="fright">2021-07-28</div></li>
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 6월호</a></div><div class="fright">2021-06-30</div></li>
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 5월호</a></div><div class="fright">2021-05-26</div></li>
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 4월호</a></div><div class="fright">2021-04-21</div></li>
-									
 									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 3월호</a></div><div class="fright">2021-03-30</div></li>
-									
-									<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 12월호</a></div><div class="fright">2020-12-16</div></li>
-									
 								</ul>
-							</div>  
+								<li class="clearfix"><div class="fleft"><a href="#">뉴스레터 12월호</a></div><div class="fright">2020-12-16</div></li>
+							</div>							
 							<div id="business" class="tab-pane fade">
 								<ul class="un-style">
 									<li class="clearfix"><div class="fleft"><a href="#">해외통상사무소 활용 바이어 매칭지원사업 선정기업 안내 </a></div><div class="fright">2021-09-07</div></li>
@@ -310,13 +317,13 @@
 									<li class="clearfix"><div class="fleft"><a href="#">2021년 소상공인 협업마케팅 활성화 지원사업 2차 공고</a></div><div class="fright">2021-08-30</div></li>
 									<li class="clearfix"><div class="fleft"><a href="#">[수산기업 대상] 2021년 충남 수산기업-해외 바이어 수출상담회 참가기업 모집</a></div><div class="fright">2021-08-26</div></li>
 									<li class="clearfix"><div class="fleft"><a href="#">2021년 추석명절 대비 중소기업 특별 경영안정자금 융자지원 계획</a></div><div class="fright">2021-08-26</div></li>
-								</ul>    
+								</ul>
 							</div>
-						</div>		
+						</div>
 					</div>
-				</div>  
+				</div>
 				<div class="banner d-line col-lg-3">
-					<div class="g-pos-rel">	
+					<div class="g-pos-rel">
 						<h3 class="g-pos-abs margin0">충남 외국인투자지역<br>운영 현황</h3>
 						<p class="g-pos-abs margin0">바로가기<img style="width: 13px; margin-left:5px;" src="http://www.hifi.or.kr/images/main/banner_arrow.png"></p>
 					</div>
@@ -329,11 +336,11 @@
 			</div>
 		</div>
 		<!-- 메인 콘텐츠 끝 -->
-
 	</div>
-	
+
 	<!-- 하단 배너 시작 -->
 	<div style="border-top:1px solid #e0e0e0;">
+		<!-- main_banner 어디있는지 몰겟음 -->
 		<div class="container main_banner">
 			<div class="slider fbanner">
 				<div>
@@ -353,25 +360,27 @@
 				</div>
 				<div>
 					<a target="blank_" href="http://www.bizinfo.go.kr/cmm/main/mainPage.do"><img class="m100" src="http://www.hifi.or.kr/images/main/fbanner2.png"></a>
-				</div> 
+				</div>
 				<div>
 					<a target="blank_" href="https://www.cnsp.or.kr/"><img class="m100" src="http://www.hifi.or.kr/images/main/fbanner10.png"></a>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 하단 배너 끝 -->
-	
+
 	<!-- 최상단 이동 시작 -->
 	<div class="Gotop tcenter" id="Gotop">
 		<a class="te_ff fontBold"><i class="fas fa-chevron-up"></i></a>
 	</div>
 	<!-- 최상단 이동 끝 -->
-	
+
 	<!-- 풋터 시작 -->
 	<footer>
+		<!-- padding 값 -->
 		<div class="container">
 			<div class="row">
+				<!-- display: none -->
 				<div class="col-lg-4">
 					<a>
 						<img src="http://www.hifi.or.kr/images/main/bottom_logo.png" style="max-width: 302px; width: 100%;">
@@ -379,6 +388,7 @@
 				</div>
 				<div class="col-lg-8">
 					<div>
+						<!-- list-style: none; margin:0; padding:0; -->
 						<ul class="un-style">
 							<li><a href="http://www.hifi.or.kr/siteinfo/IndividualInfoPolicy.do">개인정보처리방침</a></li>
 							<li><a href="http://www.hifi.or.kr/siteinfo/emailReject.do">이메일무단수집거부</a></li>

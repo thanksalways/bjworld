@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumSquare_acR', 'NanumSquare_acEB', 'NanumSquare_acB';
+    font-style: normal;
+    src: url('/css/fonts/NanumSquareRoundR.eot');
+    src: 
+	    url('/css/fonts/NanumSquareRoundR.eot') format('embedded-opentype'),
+	    url('/css/fonts/NanumSquareRoundR.woff') format('woff'),
+	    url('/css/fonts/NanumSquareRoundR.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NanumSquare_acB';
+    font-style: normal;
+    src: url('/css/fonts/NanumSquare_acB.eot');
+    src: 
+	    url('/css/fonts/NanumSquare_acB.eot') format('embedded-opentype'),
+	    url('/css/fonts/NanumSquare_acB.woff') format('woff'),
+	    url('/css/fonts/NanumSquare_acB.otf') format('opentype');
+	unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E,
+				   U+0041-005A, U+0061-007A,U+0030-0039 ;
+}
+
+@font-face {
+    font-family: 'NanumSquare_acR';
+    font-style: normal;
+    src: url('/css/fonts/NanumSquare_acR.eot');
+    src: 
+	    url('/css/fonts/NanumSquare_acR.eot') format('embedded-opentype'),
+	    url('/css/fonts/NanumSquare_acR.woff') format('woff'),
+	    url('/css/fonts/NanumSquare_acR.otf') format('opentype');
+	unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E,
+				   U+0041-005A, U+0061-007A,U+0030-0039 ;
+}
+
+@font-face {
+    font-family: 'NanumSquare_acEB';
+    font-style: normal;
+    src: url('/css/fonts/NanumSquare_acEB.eot');
+    src: 
+	    url('/css/fonts/NanumSquare_acEB.eot') format('embedded-opentype'),
+	    url('/css/fonts/NanumSquare_acEB.woff') format('woff'),
+	    url('/css/fonts/NanumSquare_acEB.otf') format('opentype');
+	unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E,
+				   U+0041-005A, U+0061-007A,U+0030-0039 ;
+}

@@ -1,9 +1,15 @@
+/* 글자 배치나 position등 기본적인 스타일은 미리 선언을 하였음. 
+!important는 다른 모든 속성을 무시하고, 우선적으로 적용*/
 .un-style {list-style: none; margin:0; padding:0;}
 .tright {text-align: right !important;}
 .tleft {text-align: left !important;}
 .tcenter {text-align: center !important;}
 .fleft {float: left !important;}
 .fright {float: right !important;}
+/* 🧡dispaly: table에 대한 설명
+https://www.biew.co.kr/entry/%EC%9B%B9%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%85%94%EA%B0%80-%EC%95%8C%EA%B3%A0%EC%9E%88%EC%96%B4%EC%95%BC-%ED%95%A0-display-table-%EC%86%8D%EC%84%B1 
+
+https://selosele.github.io/2020/01/09/table-property/*/
 .clearfix:after {content:" "; display: table; clear:both;}
 .d-line {display: inline-block !important;}
 .g-pos-rel {position: relative !important;}
@@ -19,11 +25,14 @@ ul li span.d-line.spot {vertical-align: top; }
 ul li span.d-line.con {width: 90%;}
 .noborder {border : none !important;}
 
+
+/*  */
 /*header*/
 header > div{border-bottom : 1px solid #e0e0e0;}
 header .container{padding-top : 26px; padding-bottom : 26px;}
 header .logo {width: 50%}
 header .logo img {max-width:26.6rem; width: 100%;}
+/* 커서형태를 포인터로 https://cofs.tistory.com/212  */
 header .menu a {cursor: pointer;}
 header .menu img {width: 24px;}
 header .menu a:first-child img {margin-right:2.4rem;}
@@ -55,6 +64,7 @@ header .menu {bottom:0; right: 0;}
 }
 .sub-menu > div > div > div > div ul li a:hover {text-decoration: underline !important; font-family: NanumSquare_acB;}
 
+/* allmenu부분 어디있는지 몰겠음 */
 .allmenu {
 	display: none;
 	max-width: 1210px !important;
@@ -280,6 +290,7 @@ footer .col-lg-8 div p {transform: skew(-0.03deg); font-family: NanumSquare_acR;
     height: 716px;
     overflow-y: scroll;
 }
+
 .mailcontent .title {border-bottom:1px solid rgba(0, 0, 0, 0.25);}
 .mailcontent .title h3 {font-family: NanumSquare_acEB; font-size: 2.4rem; color: #434343; margin-bottom:22px; }
 .mailcontent .title:after {position: absolute; bottom:0; display:block; content:''; width: 161px; height: 2px; background: #096bcf;}
