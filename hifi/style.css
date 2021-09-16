@@ -45,6 +45,7 @@ header .menu {bottom:0; right: 0;}
 	display: block;
 	cursor: pointer;
 }
+/* 이렇게 여러가지 클래스를 동시에 스타일 적용할 수 있음 */
 .header-menu li:hover a, .header-menu li a.active, .header-menu li a.on {color:#0575E6 !important;}
 .sub-menu {width: 100%; background-image: url('/images/main/subBack.png'); background-size: 100% 106%; z-index: 100; visibility: hidden; height: 0px;}
 .sub-menu .container {padding-top:0; padding-bottom:0; height: 100%;}
@@ -109,6 +110,7 @@ header .menu {bottom:0; right: 0;}
 	top:-24px;
 	left:0;
 }
+
 .allmenu > ul > li.eb:after {background: #0575E6;}
 .allmenu > ul > li.e0:after {background: #e0e0e0;}
 .allmenu > ul > li > ul {padding-left:10px;}
@@ -116,12 +118,14 @@ header .menu {bottom:0; right: 0;}
 	font-family: NanumSquare_acR; font-size: 1.6rem; transform: skew(-0.03deg);
 	color:#000000 !important;
 }
+
 .allmenu > ul > li > ul > li > ul {padding-left:10px;}
 .allmenu > ul > li > ul > li > ul > li > a {
 	font-family: NanumSquare_acR; font-size: 1.5rem;
 	transform: skew(-0.03deg);
 	color:#626262 !important;
 }
+
 .allmenu span {width: 48px; height: 48px; top:32px; right: 41px; border:1px solid #E0E0E0; padding:14px; cursor: pointer}
 
 .select_div {
@@ -192,8 +196,13 @@ header .menu {bottom:0; right: 0;}
 	border:1px solid #ffffff; 
 	color:#ffffff !important; 
 	font-size: 1.4rem; 
+	/* tranform 관련 링크 https://m.blog.naver.com/brusher3063/221692760140
+	skew는 왜곡을 의미하고 deg는 각도를 의미
+	*/	
 	transform: skew(-0.03deg);
+	/* font-family 글꼴 https://www.codingfactory.net/10551 */
 	font-family: NanumSquare_acR;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient() */
 	background: linear-gradient(to right, white 50%, rgba(0,0,0,0) 50%,  rgba(0,0,0,0) 100%);
 	background-size: 200% 100%;
 	background-position: right bottom;
