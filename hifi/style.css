@@ -200,6 +200,8 @@ header .menu {bottom:0; right: 0;}
 	transition: all .5s ease-out;
 	cursor: pointer;
 }
+/* background-positon: left bottom을 하면 어떻게 되는거지?? */
+/* https://aboooks.tistory.com/162 */
 .GVC a:hover {background-position: left bottom; color:#007bff !important;}
 .GVC a.first {margin-bottom:5px;}  
 
@@ -856,14 +858,25 @@ button.allsearch {height: 40px; width: 82px; font-family: NanumSquare_acR; font-
 	.banner > div > p {bottom:12px; left:17px; font-size: 12px; font-family: NanumSquare_acR; color:#ffffff;}
 
 	.contnavi ul li {width: 100% !important;}
+	/* mainT는 어디서 쓰이는거지?? */
 	.mainT {padding:90px 0 80px;}
 	.mainT .col-lg-4 {max-width: 100% !important;}
+
+	/* ❓🧡webkit는 크롬과 사파리환경
+	flex는 비율
+	-> webkit-box-flex:1 은 1:1:1... 의 비율을 의미
+	-> -ms-flex:1 이건 익스플로러 1:1:1...의 비율
+
+
+	https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rwans0397&logNo=220646946889 */
+
 	.mainT .col-lg-8 {
 		-webkit-box-flex: 0;
 	    -ms-flex: 0 0 100% !important;
 	    flex: 0 0 100% !important;
 	    max-width: 100% !important;
     }
+
     .mainT .col-lg-4.nlimage {max-width: 100% !important;}
     .hextopcont {float: none; margin:30px auto;}
     .mainT .leftTitle h3 {margin-bottom:30px;}
@@ -872,6 +885,7 @@ button.allsearch {height: 40px; width: 82px; font-family: NanumSquare_acR; font-
     .mainT .map_left, .mainT .map_right {max-width: 100%;}
     
     .counprc {margin:54.9px auto; float:none;}
+	/* 이부분이 어떻게 적용되는거지 */
     .counprc:after {
     	border-left: 15px solid transparent;
 	    border-right: 15px solid transparent;
@@ -913,6 +927,7 @@ button.allsearch {height: 40px; width: 82px; font-family: NanumSquare_acR; font-
 	.con_down2 {max-width: 100%; width: 100%; margin-top:2rem; margin-right: 2.0rem;}
 	.con_down3 {max-width: 100%; width: 100%; margin-top:2rem;}
 }
+/* 이표현 어색 */
 @media (min-width: 768px) {/*�쒕툝由용쾭��*/
 	html {font-size: 8px;}
 	.mobile {display: block;}
@@ -1073,6 +1088,7 @@ button.allsearch {height: 40px; width: 82px; font-family: NanumSquare_acR; font-
 	.contnavi > ul > li.on {display: block;}
 	
 	.mainT .col-lg-4 {max-width: 100%;}
+	/* Flexbox https://nykim.work/4 */
 	.mainT .col-lg-8 {
 		-webkit-box-flex: 0;
 	    -ms-flex: 0 0 100%;
